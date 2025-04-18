@@ -24,7 +24,7 @@
                 echo '
                 <div class="book-card">
                     <div class="book-cover">
-                        <img src="'.($row['cover_image'] ?: '/assets/images/default-cover.jpg').'" alt="'.$row['title'].'">
+                        <img src="'.($row['cover_image'] ?: 'assets/images/default-cover.jpg').'" alt="'.$row['title'].'">
                     </div>
                     <div class="book-info">
                         <h3 class="book-title">'.$row['title'].'</h3>
